@@ -93,7 +93,7 @@
     }
 
     to {
-        -webkit-transform: translateY(-2000px);
+        -webkit-transform: translateY(-1000px);
     }
 }
 
@@ -103,7 +103,7 @@
     }
 
     to {
-        -moz-transform: translateY(-2000px);
+        -moz-transform: translateY(-1000px);
     }
 }
 
@@ -113,7 +113,7 @@
     }
 
     to {
-        -ms-transform: translateY(-2000px);
+        -ms-transform: translateY(-1000px);
     }
 }
 
@@ -123,6 +123,6 @@
     }
 
     to {
-        transform: translateY(-2000px);
+        transform: translateY(-1000px);
     }
 }
