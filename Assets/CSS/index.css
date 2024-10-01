@@ -13,35 +13,38 @@ body {
 header {
     overflow: hidden;
     background-color: #140f07;
-    color: snow;
+    color: rgba(255, 250, 250, 0.85);
     height: 100vh;
     width: 100vw;
     margin-bottom: 1em;
 }
 
+
 nav {
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-nav a {
+a {
     font-size: 1.5rem;
-    color: snow;
+    color: rgba(255, 250, 250, 0.85);
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 5px;
     transition: all 0.3s ease;
+    margin: 1em;
 }
 
-nav a:hover {
+a:hover {
     color: #140f07;
-    background-color: snow;
+    background-color: rgba(255, 250, 250, 0.85);
 }
 
 #main {
+    margin-top: 35vh;
     position: relative;
-    margin: 0 auto;
-    margin-top: 40vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -55,11 +58,12 @@ nav a:hover {
 
 footer {
     background-color: #140f07;
-    color: snow;
+    color: rgba(255, 250, 250, 0.85);
     padding: 20px;
     text-align: center;
 }
 
 footer p {
+    position: relative;
     font-size: 1.2rem;
 }
