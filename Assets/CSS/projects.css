@@ -12,7 +12,6 @@
 }
 
 #projects h2 {
-    position: relative;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -23,7 +22,6 @@
 }
 
 .project-container {
-    position: relative;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -49,7 +47,6 @@
 }
 
 .project a {
-    position: relative;
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;

@@ -12,7 +12,6 @@
 }
 
 #tools h2 {
-    position: relative;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
@@ -21,7 +20,6 @@
 }
 
 #tools ul {
-    position: relative;
     list-style-type: none;
     padding: 0;
 }

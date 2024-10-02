@@ -20,10 +20,12 @@ header {
 }
 
 
-nav {
+.main nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50vw;
 }
 
 a {
@@ -34,7 +36,7 @@ a {
     border-radius: 10px;
     padding: 5px;
     transition: all 0.3s ease;
-    margin: 1em;
+    margin: auto;
 }
 
 a:hover {
@@ -42,8 +44,7 @@ a:hover {
     background-color: rgba(255, 250, 250, 0.85);
 }
 
-#main {
-    margin-top: 35vh;
+.main {
     position: relative;
     flex-direction: column;
     justify-content: center;
@@ -51,9 +52,13 @@ a:hover {
     text-align: center;
 }
 
-#main h1 {
+#headerMain h1 {
     font-weight: bold;
     font-size: 3rem;
+}
+
+#headerMain {
+    margin-top: 35vh;
 }
 
 footer {
