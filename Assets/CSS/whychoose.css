@@ -95,13 +95,13 @@
     }
 
     #whyChoose ul {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
     #whyChoose li {
-        font-size: 1em;
-        width: 90%;
+        font-size: 1rem;
+        width: 80%;
         margin: 15px auto;
         padding: 10px;
     }
