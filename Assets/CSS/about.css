@@ -120,6 +120,7 @@
     }
 
     #about .content {
+        overflow-x: hidden;
         display: block;
         width: 100%;
         padding: 0 1em;
@@ -128,12 +129,14 @@
     }
 
     #about h2 {
+        overflow-x: hidden;
         font-size: 2rem;
         margin: 0;
         text-align: left;
     }
 
     #about p {
+        overflow-x: hidden;
         font-size: 0.9rem;
         line-height: 1.4;
         margin: 0.5em 0;
