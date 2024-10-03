@@ -68,8 +68,7 @@
 
 @media (max-width: 1024px) {
     #projects {
-        height: auto;
-        padding: 2em 0;
+        height: 100vh;
     }
 
     #projects h2 {
