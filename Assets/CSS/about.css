@@ -121,6 +121,8 @@
     #about .content {
         display: block;
         width: 100%;
+        height: auto;
+        margin: 0;
         padding: 0 1em;
         opacity: 0;
         animation: elevate 2s ease-out forwards;
@@ -128,7 +130,7 @@
 
     #about h2 {
         font-size: 2rem;
-        margin: 1em auto;
+        margin: 0.5em auto;
         max-width: 90%;
         text-align: left;
     }
