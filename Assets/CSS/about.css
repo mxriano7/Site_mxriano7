@@ -118,6 +118,7 @@
         display: block;
         width: 100%;
         padding: 0 1em;
+        gap: 1em;
         opacity: 0;
         animation: elevate 2s ease-out forwards;
         margin-bottom: 1.5em;
