@@ -180,3 +180,24 @@ footer p {
         padding: 1em;
     }
 }
+
+::-webkit-scrollbar {
+    width: 18px;
+    height: 18px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #140f07;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: snow;
+    border: none;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
