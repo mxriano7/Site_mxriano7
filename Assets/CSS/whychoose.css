@@ -84,6 +84,7 @@
 
 @media (max-width: 1024px) {
     #whyChoose {
+        overflow: hidden;
         height: auto;
     }
 

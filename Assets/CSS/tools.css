@@ -60,6 +60,7 @@
 
 @media (max-width: 1024px) {
     #tools {
+        overflow: hidden;
         height: auto;
         padding: 2em 1e;
     }
