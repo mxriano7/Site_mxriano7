@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 20px;
 }
 
 .project {
@@ -62,4 +64,34 @@
 .project a:hover {
     color: rgba(255, 250, 250, 0.85);
     background-color: #140f07;
+}
+
+@media (max-width: 1024px) {
+    #projects {
+        height: auto;
+        padding: 2em 0;
+    }
+
+    #projects h2 {
+        font-size: 2rem;
+    }
+
+    #projects h3 {
+        font-size: 1.2rem;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .project {
+        font-size: 1rem;
+        padding: 10px;
+        width: 90%;
+        max-width: 400px;
+        margin: 10px 0;
+    }
 }

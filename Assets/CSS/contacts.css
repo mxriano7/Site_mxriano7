@@ -35,3 +35,16 @@
     color: rgba(255, 250, 250, 0.85);
     background-color: #140f07;
 }
+
+@media (max-width: 768px) {
+    #contacts h2 {
+        font-size: 2em;
+    }
+
+    #contacts p {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+
+}
