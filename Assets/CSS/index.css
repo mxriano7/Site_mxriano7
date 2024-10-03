@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: #140f07;
     color: rgba(255, 250, 250, 0.85);
     height: 100vh;
@@ -128,7 +128,7 @@ footer p {
 @media (max-width: 1024px) {
     header {
         height: 100vh;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     #headerMain {

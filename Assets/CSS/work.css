@@ -1,5 +1,5 @@
 #work {
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100vh;
     width: 100vw;
     background-color: #140f07;
@@ -89,7 +89,7 @@
 
 @media (max-width: 1024px) {
     #work {
-        overflow: hidden;
+        overflow-x: hidden;
         height: auto;
     }
 

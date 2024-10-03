@@ -1,5 +1,5 @@
 #projects {
-    overflow: hidden;
+        overflow-x: hidden;
     height: 100vh;
     width: 100vw;
     background-color: #140f07;
@@ -50,7 +50,7 @@
 }
 
 .project a {
-    overflow: hidden;
+    overflow-x: hidden;
     font-weight: bold;
     display: inline-block;
     margin: 10px;
@@ -70,7 +70,7 @@
 
 @media (max-width: 1024px) {
     #projects {
-        overflow: hidden;
+            overflow-x: hidden;
         height: 100vh;
     }
 
