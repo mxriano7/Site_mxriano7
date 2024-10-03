@@ -137,6 +137,7 @@ footer p {
 
     #headerMain h1 {
         font-size: 2.5rem;
+        animation: none;
     }
 
     nav {
@@ -160,7 +161,15 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out;
+        transition: background-color 0.4s ease-in-out;
+        transform: none;
+    }
+
+    nav a:hover {
+        background-color: rgba(255, 250, 250, 0.85);
+        color: #140f07;
+        padding: 15px 0;
+        transform: none;
     }
 
     nav a span {
@@ -178,6 +187,28 @@ footer p {
 
     .main {
         padding: 1em;
+    }
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes glowEffect {
+    0% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow: none;
     }
 }
 

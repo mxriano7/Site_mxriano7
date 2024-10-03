@@ -109,20 +109,21 @@
         height: 100vh;
         background-color: #140f07;
         color: rgba(255, 250, 250, 0.85);
-        padding: 2em 0;
         box-shadow: none;
-        display: block;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 0 1em;
     }
 
     #about .content {
         display: block;
         width: 100%;
         padding: 0 1em;
-        gap: 1em;
         opacity: 0;
         animation: elevate 2s ease-out forwards;
-        margin-bottom: 1.5em;
     }
 
     #about h2 {
