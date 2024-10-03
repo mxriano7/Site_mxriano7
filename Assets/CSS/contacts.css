@@ -1,6 +1,7 @@
 #contacts {
     position: relative;
     margin-bottom: 1em;
+    overflow: hidden;
 
 }
 

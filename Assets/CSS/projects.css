@@ -49,6 +49,7 @@
 }
 
 .project a {
+    overflow: hidden;
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
