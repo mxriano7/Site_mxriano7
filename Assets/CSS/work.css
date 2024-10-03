@@ -22,6 +22,7 @@
 #work ul {
     list-style-type: none;
     padding: 0;
+    margin: 0 auto;
 }
 
 #work li {
@@ -98,6 +99,7 @@
 
     #work ul {
         width: 90%;
+        margin: 0 auto;
     }
 
     #work li {
