@@ -122,7 +122,7 @@
         width: 100%;
         height: auto;
         margin: 0;
-        padding: 0 1em;
+        padding: 0;
         opacity: 0;
         animation: elevate 2s ease-out forwards;
     }
