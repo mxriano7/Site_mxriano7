@@ -67,7 +67,7 @@
 
     #tools h2 {
         font-size: 2rem;
-        margin-bottom: 15px;
+        margin: 0.5em 0 1em 0;
     }
 
     #tools li {
