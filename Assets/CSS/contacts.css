@@ -43,7 +43,7 @@
     }
 
     #contacts p {
-        font-size: 1rem;
+        font-size: 1em;
         font-weight: bold;
     }
 }
