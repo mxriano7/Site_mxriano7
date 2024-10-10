@@ -27,9 +27,9 @@ function activateWhyChooseAnimations() {
             card.style.opacity = '1';
 
             if (index % 2 === 0) {
-                card.style.animation = 'itemSlideInFromLeft 1.2s ease-out forwards';
+                card.style.animation = 'itemSlideInFromLeft 1.5s ease-out forwards';
             } else {
-                card.style.animation = 'itemSlideInFromRight 1.2s ease-out forwards';
+                card.style.animation = 'itemSlideInFromRight 1.5s ease-out forwards';
             }
         } else {
             card.style.opacity = '0';
@@ -50,8 +50,8 @@ function activateWorkAnimations() {
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
             item.style.opacity = '1';
             item.style.animation = (index % 2 === 0) 
-                ? 'itemSlideInFromLeft 1.2s ease-out forwards' 
-                : 'itemSlideInFromRight 1.2s ease-out forwards';
+                ? 'itemSlideInFromLeft 1.5s ease-out forwards' 
+                : 'itemSlideInFromRight 1.5s ease-out forwards';
         } else {
             item.style.opacity = '0';
             item.style.animation = 'none';
