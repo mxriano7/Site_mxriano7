@@ -76,34 +76,6 @@
 }
 
 @media (max-width: 1024px) {
-    @keyframes slideIn {
-        0% {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-        30% {
-            opacity: 0.5;
-        }
-        70% {
-            opacity: 0.8;
-        }
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-
-    @keyframes elevate {
-        0% {
-            transform: translateY(20px);
-            opacity: 0;
-        }
-        100% {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-
     #about {
         overflow-x: hidden;
         height: auto;
