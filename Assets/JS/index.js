@@ -6,7 +6,7 @@ function activateAnimations() {
         const rect = content.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
             content.style.opacity = '1';
-            content.style.animation = 'elevate 3s forwards, slideIn 3s forwards';
+            content.style.animation = 'elevate 2s forwards, slideIn 2s forwards';
         } else {
             content.style.opacity = '0';
             content.style.animation = 'none';
@@ -27,9 +27,9 @@ function activateWhyChooseAnimations() {
             card.style.opacity = '1';
 
             if (index % 2 === 0) {
-                card.style.animation = 'itemSlideInFromLeft 3s ease-out forwards';
+                card.style.animation = 'itemSlideInFromLeft 2.5s ease-out forwards';
             } else {
-                card.style.animation = 'itemSlideInFromRight 3s ease-out forwards';
+                card.style.animation = 'itemSlideInFromRight 2.5s ease-out forwards';
             }
         } else {
             card.style.opacity = '0';
@@ -50,8 +50,8 @@ function activateWorkAnimations() {
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
             item.style.opacity = '1';
             item.style.animation = (index % 2 === 0) 
-                ? 'itemSlideInFromLeft 3s ease-out forwards' 
-                : 'itemSlideInFromRight 3s ease-out forwards';
+                ? 'itemSlideInFromLeft 2.5s ease-out forwards' 
+                : 'itemSlideInFromRight 2.5s ease-out forwards';
         } else {
             item.style.opacity = '0';
             item.style.animation = 'none';
@@ -71,8 +71,8 @@ function activatedeliveryAnimations() {
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
             item.style.opacity = '1';
             item.style.animation = (index % 2 === 0) 
-                ? 'itemSlideInFromLeft 3s ease-out forwards' 
-                : 'itemSlideInFromRight 3s ease-out forwards';
+                ? 'itemSlideInFromLeft 2.5s ease-out forwards' 
+                : 'itemSlideInFromRight 2.5s ease-out forwards';
         } else {
             item.style.opacity = '0';
             item.style.animation = 'none';
