@@ -2,16 +2,26 @@ const aboutSection = document.getElementById('about');
 const contents = aboutSection.querySelectorAll('.content');
 
 function activateAnimations() {
+    let triggerAnimation = false;
+
     contents.forEach(content => {
         const rect = content.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
-            content.style.opacity = '1';
-            content.style.animation = 'elevate 2s forwards, slideIn 2s forwards';
-        } else {
-            content.style.opacity = '0';
-            content.style.animation = 'none';
+            triggerAnimation = true;
         }
     });
+
+    if (triggerAnimation) {
+        contents.forEach(content => {
+            content.style.opacity = '1';
+            content.style.animation = 'slideIn 2s forwards';
+        });
+    } else {
+        contents.forEach(content => {
+            content.style.opacity = '0';
+            content.style.animation = 'none';
+        });
+    }
 }
 
 window.addEventListener('scroll', activateAnimations);
@@ -25,12 +35,8 @@ function activateWhyChooseAnimations() {
         const rect = card.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
             card.style.opacity = '1';
+            card.style.animation = 'itemSlideInFromLeft 2.5s ease-out forwards';
 
-            if (index % 2 === 0) {
-                card.style.animation = 'itemSlideInFromLeft 2.5s ease-out forwards';
-            } else {
-                card.style.animation = 'itemSlideInFromRight 2.5s ease-out forwards';
-            }
         } else {
             card.style.opacity = '0';
             card.style.animation = 'none';

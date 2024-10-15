@@ -10,18 +10,6 @@
     }
 }
 
-@keyframes itemSlideInFromRight {
-    0% {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 #whyChoose {
     overflow-x: hidden;
     height: 100vh;
@@ -29,84 +17,96 @@
     background-color: #140f07;
     color: #140f07;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     margin-bottom: 1em;
 }
 
 #whyChoose h2 {
-    text-align: center;
+    text-align: left;
     font-size: 3rem;
     font-weight: bold;
-    margin: 10px auto;
+    margin: 10px 0;
     color: rgba(255, 250, 250, 0.85);
 }
 
 #whyChoose ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+    text-align: left;
 }
 
 #whyChoose li {
     font-size: 1.2rem;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 15px;
     background-color: rgba(255, 250, 250, 0.85);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 75%;
+    width: 90%;
     opacity: 0;
+    transform: translateX(-100%);
 }
 
-#whyChoose li:nth-child(1) {
+#whyChoose li {
     animation: itemSlideInFromLeft 2.5s ease-out forwards;
-    animation-delay: 2s;
 }
 
-#whyChoose li:nth-child(2) {
-    animation: itemSlideInFromRight 2.5s ease-out forwards;
-    animation-delay: 3s;
+#whyChooseContent {
+    width: 50%;
 }
 
-#whyChoose li:nth-child(3) {
-    animation: itemSlideInFromLeft 2.5s ease-out forwards;
-    animation-delay: 4s;
+#whyChoose .image-container {
+    margin-top: 2em;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#whyChoose li:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
+#whyChoose .image-container img {
+    background-color: rgba(255, 250, 250, 0.85);
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1024px) {
     #whyChoose {
-        overflow-x: hidden;
         height: auto;
+        flex-direction: column;
+    }
+
+    #whyChooseContent {
+        width: 90%;
+        margin: 0 auto;
     }
 
     #whyChoose h2 {
+        text-align: center;
         font-size: 1.2rem;
         width: 90%;
         margin: 0 auto 1em auto;
     }
 
-    #whyChoose ul {
-        width: 90%;
-        margin: 0 auto;
-    }
-
     #whyChoose li {
-        font-size: 1rem;
+        text-align: center;
+        font-size: 1em;
         width: 90%;
-        margin: 15px auto;
+        margin: 15px auto 0 auto;
         padding: 10px;
     }
 
-    #whyChoose li strong {
-        font-size: 1.2rem;
+    #whyChoose .image-container {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    #whyChoose .image-container img {
+        margin: 0 auto;
+        width: 90%;
+        max-height: 90%;
+        padding: 10px;
     }
 }
