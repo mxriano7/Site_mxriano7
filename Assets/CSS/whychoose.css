@@ -57,7 +57,7 @@
     width: 50%;
 }
 
-#whyChoose .image-container {
+#whyChoose .image-container-icons {
     margin-top: 2em;
     width: 40%;
     display: flex;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-#whyChoose .image-container img {
+#whyChoose .image-container-icons img {
     background-color: rgba(255, 250, 250, 0.85);
     max-width: 100%;
     border-radius: 8px;
@@ -98,15 +98,17 @@
         padding: 10px;
     }
 
-    #whyChoose .image-container {
+    #whyChoose .image-container-icons {
         width: 90%;
         margin-top: 0;
     }
 
-    #whyChoose .image-container img {
+    #whyChoose container.image- img {
+        opacity: 0;
         margin: 0 auto;
         width: 90%;
         max-height: 90%;
         padding: 10px;
+        animation: itemSlideInFromLeft 2.5s ease-out forwards;
     }
 }
