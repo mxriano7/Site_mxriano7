@@ -72,7 +72,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
     #whyChoose {
         height: auto;
         flex-direction: column;
@@ -103,11 +103,11 @@
         margin-top: 0;
     }
 
-    #whyChoose container.image- img {
+    #whyChoose .image-container-icons img {
         opacity: 0;
         margin: 0 auto;
         width: 90%;
-        max-height: 90%;
+        max-height: 300px;
         padding: 10px;
         animation: itemSlideInFromLeft 2.5s ease-out forwards;
     }
