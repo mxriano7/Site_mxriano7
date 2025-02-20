@@ -138,10 +138,10 @@ document.addEventListener('DOMContentLoaded', function () {
 function updateTitle() {
     var titleElement = document.getElementById('title');
     if (window.innerWidth < 1024) {
-        titleElement.innerHTML = "Paulo Mariano<br>Web Developer";
+        titleElement.innerHTML = "Paulo Mariano<br>Full Stack Developer";
     }
     else {
-        titleElement.innerHTML = "Paulo Mariano || Web Developer";
+        titleElement.innerHTML = "Paulo Mariano || Full Stack Developer";
     }
 }
 window.addEventListener('resize', updateTitle);

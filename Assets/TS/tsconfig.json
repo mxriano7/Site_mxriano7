@@ -8,5 +8,5 @@
   },
   "include": [
     "./**/*.ts"
-, "index.ts"  ]
+, "../../index.ts"  ]
 }
