@@ -132,12 +132,12 @@ footer p {
     }
 
     #headerMain {
-        margin-top: 20vh;
+        margin-top: 10vh;
         text-align: center;
     }
 
     #headerMain h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     nav {
